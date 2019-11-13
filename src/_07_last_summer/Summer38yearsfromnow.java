@@ -4,7 +4,8 @@ import javax.swing.JOptionPane;
 
 public class Summer38yearsfromnow {
 public static void main(String[] args) {
- JOptionPane.showInputDialog("Whats your name?");
+ String input =JOptionPane.showInputDialog("Whats your name?");
+ JOptionPane.showMessageDialog(null, "I know that you WENT SKYDIVING last summer "+input +" ,Muhahaha!");
 
 
 
